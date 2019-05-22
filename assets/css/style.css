@@ -1,0 +1,56 @@
+.header {
+    background: #ffffff;
+}
+
+.header-title {
+    background: #4aaaa5;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.a-group {
+    float: right;
+}
+
+.bio-title {
+    color: #4aaaa5;
+    clear: both;
+}
+
+#main-bio, #bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 60%;
+}
+
+#bio-image {
+    margin-right: 20px;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+.container-3 {
+    background: #666666;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container-2 {
+    background: lightblue;
+}
