@@ -1,0 +1,18 @@
+.container-2 {
+    background: #ffffff;
+    clear: both;
+    border: solid #dddddd;
+    margin-top: 25px;
+    height: 300px;
+}
+
+.bio-title {
+    color: #4aaaa5;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid lightgray;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
