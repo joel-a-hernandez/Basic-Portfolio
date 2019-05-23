@@ -1,5 +1,8 @@
 .header {
     background: #ffffff;
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: #cccccc;
 }
 
 .header-title {
@@ -8,29 +11,39 @@
     padding-top: 20px;
     padding-bottom: 20px;
     float: left;
-}
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-    clear: both;
+    
+    
 }
 
 .a-group {
     float: right;
+    font-family: Arial, 'Helvetica nue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 .bio-title {
     color: #4aaaa5;
     clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #main-bio, #bio-image {
     float: left;
 }
 
+#bio-image {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+}
+
 #main-bio {
     width: 60%;
+    font-family: Arial, 'Helvetica nuue', Helvetica, sans-serif;
 }
 
 #bio-image {
@@ -44,13 +57,34 @@
 a {
     text-decoration: none;
 }
-
+.container-1 {
+    background: #ffffff;
+    padding: 20px;
+    border-bottom: 20px;
+    color: #333;
+    font-family: Arial, 'Helvetica nue', Helvetica, sans-serif;
+}
 .container-3 {
     background: #666666;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-top: 8px solid #4aaaa5;
 }
 
 .container-2 {
-    background: lightblue;
+    background: #ffffff;
+    clear: both;
+    border: #dddddd;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.clearfix::after {
+    content: '';
+    clear:both;
+    display:table;
+}
+.background-image {
+    background-image: url(../images/memphis-mini.png);
+    position: center;
 }
