@@ -52,5 +52,17 @@ body {
 }
 
 .container-4 {
-   
+   position: relative;
+   text-align: center;
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    background: #4aaaa5;
+    height: 30px;
+    padding-top: 10px;
 }
