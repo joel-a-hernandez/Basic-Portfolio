@@ -23,7 +23,7 @@ body {
 
 .box-1 {
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 20px;
     width: 40%;
 }
@@ -35,7 +35,7 @@ body {
 
 .box-3 {
     float:left;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 20px;
     width: 40%;
 }
@@ -47,7 +47,7 @@ body {
 }
 .box-5 {
     float:left;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 20px;
 }
 
