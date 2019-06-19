@@ -69,3 +69,8 @@ body {
 a {
     color: #ffffff;
 }
+
+.nav-links {
+    color: #777777;
+    text-decoration: none;
+}
